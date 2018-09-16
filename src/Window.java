@@ -7,5 +7,7 @@ public class Window extends JFrame {
         setTitle("Snake Game");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+
+        getContentPane() .add(new Graphic()) ;
     }
 }
